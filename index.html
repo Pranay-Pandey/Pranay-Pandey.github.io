@@ -704,6 +704,18 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
+                <h5 class="h5">Golang</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
                 <h5 class="h5">GraphQl and RestAPI</h5>
               </div>
 
@@ -739,7 +751,7 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Databases (MySql, Postgresql, MongoDB)</h5>
+                <h5 class="h5">Databases (MySql, Postgresql, MongoDB, Redis)</h5>
               </div>
 
               <div class="skill-progress-bg">
@@ -844,6 +856,37 @@
 
           <ul class="project-list">
 
+            
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a >
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img style="background-color: white;" src="./assets/images/portfolio/golang-architecture.svg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Scalable Logistics Platform</h3>
+
+                <p class="project-category">Web development</p>
+
+                <a class="project-link" href="https://github.com/Pranay-Pandey/connection-hand-shake" target="_blank" style="display: none;">View on Github</a>
+
+                <p class="project-description" style="display: none;" tag="markdown"> 
+                  On-Demand Logistics Platform for Goods Transportation
+                  <br>
+                  Event-Driven Microservice Architecture, Go, PostgreSQL, MongoDB, Kafka, Redis, WebSockets, Docker
+                  <br> <br>
+                  A highly scalable logistics platform that allows users to book transportation services for moving goods. The platform connects users who need to transport items with a fleet of drivers, providing real-time availability, pricing, and tracking of vehicles. The system can handle extremely high traffic efficiently while ensuring smooth coordination between users and drivers.
+                  <br> <br>
+                  Utilizes an event-driven microservice architecture to ensure high availability and scalability. The backend is built with Go, using PostgreSQL for relational data and MongoDB for unstructured data. Kafka is used for event streaming, Redis for caching, and WebSockets for real-time communication. The system is containerized with Docker for easy deployment and scaling. 
+                  </p>
+
+              </a>
+            </li>
+
             <li class="project-item  active" data-filter-item data-category="web development">
               <a >
 
@@ -863,9 +906,9 @@
 
                 <p class="project-description" style="display: none;" tag="markdown"> 
                   Foodz is a recipe management web application that integrates Django for the backend and React for the frontend, delivering an intuitive user experience. The backend uses Django Rest Framework and PostgreSQL, with API documentation handled by Swagger. The frontend is built with React, using Vite as the bundler and Mantine for the UI, along with libraries like react-toastify and crypto-js.
-
+<br> <br>
 Key challenges included UI design, image handling, and backend optimization. The solution involved adopting a minimalistic UI, replacing image fields with URL fields for better scalability, and restructuring the backend to minimize API requests. Security was enhanced by encrypting user credentials with crypto-js.
-
+<br> <br>
 The application is deployed on Vercel, with optimizations to handle API request timeouts during deployment. This project demonstrates expertise in full-stack development, with a focus on creating scalable and user-friendly web applications. 
                 </p>
 
@@ -914,7 +957,9 @@ The application is deployed on Vercel, with optimizations to handle API request 
                 <a class="project-link" href="https://github.com/Pranay-Pandey/flutter-meals-app" target="_blank" style="display: none;">View on Github</a>
 
                 <p class="project-description" style="display: none;">
-                  The Meals App is a mobile application developed using Flutter. It provides users with a curated collection of dishes along with their recipes. Users can explore a variety of meals, search through categories, mark favorites, and access detailed recipe information. The README file on github page serves as a comprehensive guide for developers and contributors to understand the project structure, features, and how to set up and run the application.
+                  The Meals App is a mobile application developed using Flutter. It provides users with a curated collection of dishes along with their recipes. Users can explore a variety of meals, search through categories, mark favorites, and access detailed recipe information. 
+                  <br> <br>
+                  The README file on github page serves as a comprehensive guide for developers and contributors to understand the project structure, features, and how to set up and run the application.
                 </p>
 
               </a>
@@ -939,7 +984,9 @@ The application is deployed on Vercel, with optimizations to handle API request 
 
                 <p class="project-description" style="display: none;">
                   The Healthcare Record Management (HRM) project aims to provide a platform for the patients, doctors and various healthcare stakeholders where access-controlled data is stored, exchanged and kept as a medical record for a patient.
+                  <br> <br>
                   The HRM project aims to address the challenges of securely managing healthcare data, ensuring patient privacy, and enabling efficient communication between patients and doctors. This project also aims to leverage tools like blockchain, decentralized storage and access control mechanisms to reduce redundancy and protect privacy.
+                  <br> <br>
                   The project utilizes technologies including Tezos blockchain, AES encryption, RSA encryption, IPFS (InterPlanetary File System), and TequitoJS and node libraries like chakra and react for the front end.
                 </p>
               </a>
@@ -963,8 +1010,10 @@ The application is deployed on Vercel, with optimizations to handle API request 
                 <a class="project-link" href="https://github.com/Pranay-Pandey/sentiment-analysis-k8" target="_blank" style="display: none;">View on Github</a>
 
                 <p class="project-description" style="display: none;">
-                  This project involves deploying a sentiment analysis model using FastAPI, Transformers, and PyTorch. The backend provides a secure API for sentiment analysis, logging results in a MySQL database, and handling authentication with JWT tokens. The service is containerized with Docker and deployed on Kubernetes, with three replicas managed through a LoadBalancer. Key API endpoints include user authentication, sentiment analysis, and log retrieval.
-
+                  This project involves deploying a sentiment analysis model using FastAPI, Transformers, and PyTorch. The backend provides a secure API for sentiment analysis, logging results in a MySQL database, and handling authentication with JWT tokens. 
+                  <br> <br>
+                  The service is containerized with Docker and deployed on Kubernetes, with three replicas managed through a LoadBalancer. Key API endpoints include user authentication, sentiment analysis, and log retrieval.
+                  <br> <br>
 To replicate the backend locally, a Python virtual environment is used, with Docker enabling quick deployment. Kubernetes ensures scalability and reliability, making this project suitable for real-world applications.
                 </p>
 
@@ -990,9 +1039,9 @@ To replicate the backend locally, a Python virtual environment is used, with Doc
 
                 <p class="project-description" style="display: none;">
                   This project focuses on autonomous car navigation using a Pixy camera, developed in a ROS2 environment with Gazebo simulation on Ubuntu 20.04. The car navigates complex tracks, including bridges and zigzag paths, relying solely on computer vision.
-
+                  <br> <br>
 The nxp_track_vision.py script extracts vectors from the Pixy camera to identify track boundaries, while aim_line_follow.py controls the car's steering and movement. The car adjusts its steering based on pixel density analysis, where higher white pixel density on one side causes the car to steer in that direction. A PID controller ensures smooth turns.
-
+<br> <br>
 Velocity adjustments are made during uphill and downhill sections, using odom feedback to maintain consistent speed. This project showcases advanced autonomous navigation, combining computer vision and ROS2 for complex environments.
 </p>
 
@@ -1017,7 +1066,11 @@ Velocity adjustments are made during uphill and downhill sections, using odom fe
                 <a class="project-link" href="https://github.com/Pranay-Pandey/Photo-Organizer" target="_blank" style="display: none;">View on Github</a>
 
                 <p class="project-description" style="display: none;">
-                  Photo Organizer App is a web app that allows a user to get group photos that include them without having to keep or sort through all of the photos, saving them time and storage space. When a photo is uploaded, the app identifies the faces in it and arranges them according to the users who have been identified. Each identified user gets a separate album with all their photos allowing them to get the photos they need seamlessly. Upload group photos, arrange them by faces using ML and share them with ease.
+                  Photo Organizer App is a web app that allows a user to get group photos that include them without having to keep or sort through all of the photos, saving them time and storage space. 
+                  <br> <br>
+                  When a photo is uploaded, the app identifies the faces in it and arranges them according to the users who have been identified. Each identified user gets a separate album with all their photos allowing them to get the photos they need seamlessly. 
+                  <br> <br>
+                  Upload group photos, arrange them by faces using ML and share them with ease.
                 </p>
 
               </a>
@@ -1041,7 +1094,11 @@ Velocity adjustments are made during uphill and downhill sections, using odom fe
                 <a class="project-link" href="https://github.com/Pranay-Pandey/BarCode_Reader" target="_blank" style="display: none;">View on Github</a>
 
                 <p class="project-description" style="display: none;">
-                  The BarCode_Reader project detects barcodes on grocery items in images using OpenCV, Zbar, and YOLO. The process involves loading the image, applying YOLO object detection, and using Pyzbar and Dynamsoft barcode readers to identify barcodes on cropped items. Bounding boxes are color-coded based on barcode detection success: blue for recognized, yellow for partial, and red for none. A final barcode check is performed on the entire image to ensure completeness. This project showcases expertise in object detection and barcode recognition using computer vision techniques.
+                  The BarCode_Reader project detects barcodes on grocery items in images using OpenCV, Zbar, and YOLO. 
+                  <br> <br>
+                  The process involves loading the image, applying YOLO object detection, and using Pyzbar and Dynamsoft barcode readers to identify barcodes on cropped items. 
+                  <br> <br>
+                  Bounding boxes are color-coded based on barcode detection success: blue for recognized, yellow for partial, and red for none. A final barcode check is performed on the entire image to ensure completeness. This project showcases expertise in object detection and barcode recognition using computer vision techniques.
                 </p>
 
               </a>
@@ -1113,6 +1170,36 @@ Velocity adjustments are made during uphill and downhill sections, using odom fe
         <section class="blog-posts">
 
           <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://medium.com/@pranaypandeyofficial/all-you-need-to-know-about-kafka-in-docker-666d31b66f01">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blogs/kafka-docker-blog.webp" alt="" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">System Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Oct 18, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    Connection to dockerized Kafka and Zookeeper
+                  </h3>
+
+                  <p class="blog-text">
+                    All You Need to Know About Kafka in Docker and connecting to it from either a dockerized or a local environment or remote server.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
 
             <li class="blog-post-item">
               <a href="https://medium.com/@pranaypandeyofficial/identify-items-and-decode-barcodes-a3bbb833ae5d">
